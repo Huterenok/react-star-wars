@@ -1,0 +1,15 @@
+.link{
+	display: inline-flex;
+	color: var(--color-yellow);
+	align-items: center;
+	margin-top: 15px;
+	font-weight: var(--font-bold);
+	text-decoration: none;
+}
+.link__img{
+	width: 22px;
+	height: 22px;
+	border-right: 3px solid var(--color-yellow);
+	border-top: 3px solid var(--color-yellow);
+	transform: rotate(-135deg);
+}
